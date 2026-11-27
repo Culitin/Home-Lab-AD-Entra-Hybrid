@@ -53,8 +53,8 @@ Fully functional hybrid identity lab.
 
 **Evidence:**  
 ![Entra Connect Complete](screenshots/Microsoft%20Entra%20Connect%20-%20Configuration%20Complete.png)  
-![Users in Entra ID](screenshots/Usuarios%20sincronizados%20en%20Entra%20ID.png)  
-![Hybrid Identity](screenshots/Identidad%20híbrida.png)
+![Users in Entra ID](screenshots/Synced%20Users%20in%20Entra%20ID.png)  
+![Hybrid Identity](screenshots/Hybrid%20Identity.png)
 
 ---
 
