@@ -107,3 +107,74 @@ USER1 appears correctly in Microsoft Entra → Devices
 ![Hybrid Join Complete](screenshots/HybridJoin-ConfigurationComplete.png)  
 ![USER1 in Entra](screenshots/EntraDevices-USER1.png)  
 ![Hybrid Join Success](screenshots/HybridJoin-Success.png)
+
+
+# 🚀 TODO Roadmap
+
+## Completed ✅
+
+- [x] Deploy Windows Server 2016 Domain Controller (SV1)
+- [x] Deploy Windows Server 2022 Domain Controller (VS2)
+- [x] Configure Active Directory Domain Services (AD DS)
+- [x] Configure DNS
+- [x] Verify AD Replication
+- [x] Verify FSMO Roles
+- [x] Configure Microsoft Entra Connect
+- [x] Configure Password Hash Synchronization (PHS)
+- [x] Configure Hybrid Microsoft Entra Join
+- [x] Register Windows 11 Hybrid Joined Device
+
+## In Progress 🔄
+
+- [ ] Multi-Factor Authentication (MFA)
+- [ ] Authentication Methods
+- [ ] Microsoft Authenticator Registration
+- [ ] Temporary Access Pass (TAP)
+
+## Planned 📋
+
+### Identity & Access Management
+
+- [ ] Conditional Access Policies
+- [ ] Self-Service Password Reset (SSPR)
+- [ ] Password Writeback
+- [ ] Group-Based Administration
+- [ ] Role-Based Access Control (RBAC)
+- [ ] OU Filtering
+
+### Endpoint Management
+
+- [ ] Microsoft Intune Enrollment
+- [ ] Compliance Policies
+- [ ] Configuration Profiles
+- [ ] Device Management
+- [ ] Windows LAPS
+- [ ] Group Policy Objects (GPO)
+
+### Infrastructure Services
+
+- [ ] File Server (FS01)
+- [ ] Print Server (PRN01)
+- [ ] Certificate Services (CA01)
+- [ ] Windows Admin Center
+
+### Security
+
+- [ ] Microsoft Defender
+- [ ] Identity Protection
+- [ ] Privileged Identity Management (PIM)
+- [ ] Zero Trust Architecture
+
+### Monitoring & Operations
+
+- [ ] PRTG / Zabbix / Grafana Monitoring
+- [ ] Domain Controller Health Monitoring
+- [ ] DNS Monitoring
+- [ ] Performance Metrics
+
+### Migration & Modernization
+
+- [ ] FSMO Role Transfer
+- [ ] SV1 Decommission
+- [ ] Microsoft Entra Cloud Sync
+- [ ] Single Windows Server 2022 Domain Controller
