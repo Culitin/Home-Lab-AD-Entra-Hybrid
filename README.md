@@ -12,7 +12,7 @@ Fully functional hybrid identity lab.
 
 **Domain:** mercedesrainier.com  
 **NetBIOS:** MERCEDESRAINIER  
-**Tenant:** RainierAntonioMercedesIsamb.onmicrosoft.com
+**Tenant:** [Redacted].onmicrosoft.com
 
 ---
 
