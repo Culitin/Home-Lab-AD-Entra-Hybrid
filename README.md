@@ -22,8 +22,7 @@ Fully functional hybrid identity lab.
 - Client joined to domain
 
 **Evidence:**  
-![Domain Controllers](screenshots/Get-ADDomainController%20-%20Filter%20%20%20Select%20HostName,IPv4Address,IsGlobalCatalog.png)
-
+![Domain Controllers](screenshots/Domain-Controllers.png)
 ---
 
 ## Phase 2 – Replication + FSMO
