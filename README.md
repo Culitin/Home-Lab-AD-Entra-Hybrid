@@ -21,3 +21,6 @@ Lab environment for learning Hybrid Identity with Active Directory and Microsoft
 - Phase 3: UPN + Tenant validation
 - Phase 4: Microsoft Entra Connect (Password Hash Sync)
 - Phase 5: Hybrid Microsoft Entra Join
+
+## Screenshots
+All evidence screenshots are in the `screenshots` folder.
