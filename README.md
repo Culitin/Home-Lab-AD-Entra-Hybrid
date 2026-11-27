@@ -1,4 +1,39 @@
 # Home Lab - Active Directory + Microsoft Entra ID Hybrid
+## 1. Visual Architecture
+
+                    ┌─────────────────────────┐
+                    │   Microsoft Entra ID    │
+                    │      Cloud Tenant       │
+                    └───────────┬─────────────┘
+                                │
+                  Password Hash Sync (PHS)
+                    Hybrid Entra Join
+                                │
+                    ┌───────────▼─────────────┐
+                    │ Microsoft Entra Connect │
+                    │          VS2            │
+                    └───────────┬─────────────┘
+                                │
+      ┌─────────────────────────┴─────────────────────────┐
+      │            On-Premises Active Directory           │
+      └─────────────────────────┬─────────────────────────┘
+                                │
+
+┌───────────────┐     Replication      ┌────────────────┐
+│ SV1           │◄────────────────────►│ VS2            │
+│ Server 2016   │                      │ Server 2022    │
+│ DC + DNS      │                      │ DC + GC        │
+│ FSMO Roles    │                      │ Entra Connect  │
+└───────┬───────┘                      └───────┬────────┘
+        │                                      │
+        └──────────────┬───────────────────────┘
+                       │
+               ┌───────▼────────┐
+               │ USER1          │
+               │ Windows 11     │
+               │ Domain Joined  │
+               │ Hybrid Joined  │
+               └────────────────┘
 
 Fully functional hybrid identity lab.
 
